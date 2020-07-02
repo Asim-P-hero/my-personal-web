@@ -3,21 +3,21 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h4{
-    font-size: 40px;
+    font-size: 30px;
 }
 .name-highlight{
     color: orangered;
-    font-size: 60px;
+    font-size: 40px;
 }
 .half-width{
-    width: 25%;
+    width: 40%;
     float: left;
     margin-left: 2%;
    padding-left: 2%;
   
 }
 .half-width img{
-    width: 100%;
+    width: 100%;    
 }
     
 .top-part{
@@ -25,7 +25,7 @@ h4{
 }
 
 .top-part{
-    height:600px;
+    height:700px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -44,7 +44,7 @@ h4{
 }
 
 .second-part{
-    height:600px;
+    height:700px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -61,6 +61,75 @@ h4{
     text-align: center;
     font-size: 30px;
     font-weight: 10px;
+}
+.my-work{
+    width:30%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 1%;
+
+}
+.my-work img{
+    width: 90%;
+}
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h6{
+    font-size: 20px;
+    width: bold;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.footer-part{
+    background-image: url("img/footer-bg.png");
+}
+
+.footer-part{
+    clear: both;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 100 100;
+    width: 100px;
+
+}
+
+.footer-part{
+    width:100%;
+}
+
+.email-area{
+    margin: 10% 20%;
+    padding: 5% 8%;
+    background-image: linear-gradient(to bottom,orangered,tomato);
+    color: rgb(26, 21, 21);
+    border-radius: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    
+}
+
+.email-area .massage{
+margin-bottom: 20px;
+}
+.email{
+    margin-left: 200px;
+}
+#bottom-line{
+    color: dimgray;
+    text-align: center;
+    bottom: 0;
+    font-size: 13px;
 }
 
     
